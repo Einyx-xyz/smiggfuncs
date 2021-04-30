@@ -28,6 +28,10 @@ e2function string either(number condition, string truevar, string falsevar)
     if condition > 0 then return truevar else return falsevar end
 end
 
+e2function string timeFormat(number time)
+    return string.ToMinutesSeconds(time)
+end
+
 __e2setcost(1)
 e2function string ordinal(number num)
     return tostring(STNDRD(num))
