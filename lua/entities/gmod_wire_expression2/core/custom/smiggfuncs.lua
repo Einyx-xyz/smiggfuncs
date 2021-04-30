@@ -36,3 +36,5 @@ __e2setcost(1)
 e2function string ordinal(number num)
     return tostring(num .. STNDRD(num))
 end
+
+-- Bruh
