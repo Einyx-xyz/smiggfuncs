@@ -5,3 +5,6 @@ E2Helper.Descriptions["lerpVector(nvv)"] = "Works just like gLua LerpVector."
 
 -- Either
 E2Helper.Descriptions["either(nss)"] = "Returns the first string if the condition is greater than 1 else it just returns the second string."
+
+-- Ordinal
+E2Helper.Descriptions["ordinal(n)"] = "Returns the ordinal suffix of a number in string format."
