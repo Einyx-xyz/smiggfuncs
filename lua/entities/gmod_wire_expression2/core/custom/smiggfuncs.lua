@@ -27,3 +27,5 @@ __e2setcost(3)
 e2function string either(number condition, string truevar, string falsevar)
     if condition > 0 then return truevar else return falsevar end
 end
+
+-- A
