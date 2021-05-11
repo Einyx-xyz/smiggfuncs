@@ -5,6 +5,11 @@ e2function string timeFormat(number time)
     return string.ToMinutesSeconds(time)
 end
 
+e2function number entity:getTrash()
+    if not IsValid(this) then return end
+    return this:GetTrash()
+end
+
 __e2setcost(1)
 e2function string ordinal(number num)
     return tostring(num .. STNDRD(num))
