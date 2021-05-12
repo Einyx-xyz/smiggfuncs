@@ -4,3 +4,5 @@ E2Helper.Descriptions["timeFormat(n)"] = "Returns a nicely formatted number (e.g
 E2Helper.Descriptions["tableToJson(t)"] = "Converts the table to json"
 E2Helper.Descriptions["jsonToTable(s)"] = "Converts the string (json) to a table"
 E2Helper.Descriptions["getTrash()"] = "Get's the Trash amount from Bags (Zero's Trashman)"
+
+-- Bruh Moment
