@@ -10,6 +10,11 @@ e2function number entity:getTrash()
     return this:GetTrash()
 end
 
+e2function entity entity:getOwningEnt()
+    if not IsValid(this) then return end
+    return this:Getowning_ent()
+end
+
 __e2setcost(1)
 e2function string ordinal(number num)
     return tostring(num .. STNDRD(num))
